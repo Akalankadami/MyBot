@@ -175,21 +175,14 @@ AMDI({ cmd: "script", desc: "Queen Amdi deploy site info", react: "💃🏻", ty
     let { sendText } = amdiWA.msgLayout
 
     const text =
-        `*🌐 Queen Amdi v4 Official Website💃🏻♥️*
+        `*🌐Dark Dragon bot💃🏻♥️*
 
-    ✅ Deploy Website:
-    https://amdaniwasa.com
-
-    👥 Official beta test group: 
-    https://chat.whatsapp.com/Kk9FcrtGYzX1xzky4b1aCJ
-
-    🧰 Github:
-    https://github.com/BlackAmda/QueenAmdi
+   
 
     👨🏻‍💻 Developer:
-    https://github.com/BlackAmda
+    Damith  Akalanka
 
-    ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀ.ɴ.ᴛᴇᴄʜ 🐝
+    ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚍𝚃𝙴𝙲𝙷 🐝
     `
     return await sendText(text, { ExAdReply: "Default", quoted: "WhatsApp" })
 }));
